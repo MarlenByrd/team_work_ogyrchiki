@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Маркетплейс</title>
-    <link rel="stylrsheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class = "logo">🛍️ MarketPlace
     <header>
-        <div class="cart-icon" id="carticon">🛒
-            <span class="cart-count" id="cartCount">0</span>
+        <div class="header-content">
+            <div class="logo">🛍️ MarketPlace</div>
+            <div class="cart-icon" id="cartIcon">
+                🛒
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
         </div>
-    </div>
     </header>
 
-    <div class="cotainer">
+    <div class="container">
         <div class="products-grid" id="productsGrid">
-              <!-- Товары будут добавлены через JavaScript -->
+            <!-- Товары будут добавлены через JavaScript -->
         </div>
     </div>
 
@@ -25,8 +27,8 @@
 
     <div class="cart-modal" id="cartModal">
         <div class="cart-header">
-            <h3>Карзина</h3>
-            <button class="close-cart" id="closeCart"></button>
+            <h3>Корзина</h3>
+            <button class="close-cart" id="closeCart">×</button>
         </div>
         <div class="cart-items" id="cartItems">
             <!-- Товары в корзине будут добавлены через JavaScript -->
@@ -34,7 +36,9 @@
         <div class="cart-total">
             Итого: <span id="totalAmount">0</span> ₽
         </div>
-        <button class="checkout-btn" id="checkoutBtn">Оформить</button>
+        <button class="checkout-btn" id="checkoutBtn">Оформить заказ</button>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
