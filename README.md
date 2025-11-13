@@ -2,7 +2,7 @@
 
 Простой и функциональный интернет-магазин с корзиной покупок, созданный на чистом HTML, CSS и JavaScript.
 
-🌐 **Демо сайта**: [https://MarlenByrd.github.io/team_work_ogyrchiki](https://MarlenByrd.github.io/team_work_ogyrchiki)]
+🌐 **Демо сайта**: [https://MarlenByrd.github.io/team_work_ogyrchiki](https://MarlenByrd.github.io/team_work_ogyrchiki/)
 
 📄 **Репозиторий**: [https://github.com/MarlenByrd/team_work_ogyrchiki.git](https://github.com/MarlenByrd/team_work_ogyrchiki.git)
 
